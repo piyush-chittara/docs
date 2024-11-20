@@ -1,0 +1,411 @@
+openapi: '3.0.2'
+info:
+  title: Stream Utility
+  version: '1.0'
+servers:
+  - url: https://devutility.streamnft.tech
+paths:
+  /claims/{utilityId}:
+      get:
+        summary: Get claimed users
+        tags:
+          - Client
+        parameters:
+          - name: utilityId
+            in: path
+            description: The utility ID
+            required: true
+            schema:
+              type: string
+        responses:
+          '201':
+            description: Claimed users retrieved successfully
+            content:
+              application/json:
+                schema:
+                  type: array
+                  items:
+                    type: string
+          '500':
+            description: Server error
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    error:
+                      type: string
+  /collection/{address}:
+      get:
+        summary: Get utilities by collection address
+        tags:
+          - Utility
+        parameters:
+          - name: address
+            in: path
+            description: The address of the collection
+            required: true
+            schema:
+              type: string
+        responses:
+          '200':
+            description: Utilities retrieved successfully
+            content:
+              application/json:
+                schema:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/UtilitySchema'
+          '500':
+            description: Server error
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    error:
+                      type: string
+  /verify:
+      post:
+        summary: Redeem code
+        tags:
+          - Client
+        requestBody:
+          required: true
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  utilityId:
+                    type: string
+                  code:
+                    type: string
+                required:
+                  - utilityId
+                  - code
+        responses:
+          '201':
+            description: Code redeemed successfully
+            content:
+              application/json:
+                schema:
+                  type: object
+          '500':
+            description: Server error
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    error:
+                      type: string
+  /login/client:
+    post:
+      summary: Initiates the client login process and sends OTP to the provided email address.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: johndoe@gmail.com
+      responses:
+        '201':
+          description: Client created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateClientResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security: []
+  /login/verify:
+    post:
+      tags:
+        - Authentication
+      summary: Verify OTP and retrieve API key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: johndoe@gmail.com
+                otp:
+                  type: string
+                  example: 123456
+      responses:
+        '200':
+          description: OTP verified successfully, returns API key
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  API_KEY:
+                    type: string
+                    example: "your-generated-api-key"
+        '401':
+          description: OTP verification failed
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: false
+                  message:
+                    type: string
+                    example: "Invalid OTP"
+components:
+  schemas:
+    TaskDetails:
+      type: object
+      properties:
+        taskInfo:
+          type: string
+        serviceTarget:
+          type: string
+        targetURL:
+          type: string
+        numberOfEntries:
+          type: integer
+        mandatory:
+          type: boolean
+    ParamDetails:
+      type: object
+      properties:
+        name:
+          type: string
+        isVariable:
+          type: boolean
+        value:
+          type: string
+        operation:
+          type: string
+          enum:
+            - equals
+            - greater_than
+            - less_than
+    OnChainCallSchema:
+      type: object
+      properties:
+        abi:
+          type: object
+        functionName:
+          type: string
+        input:
+          type: array
+          items:
+            $ref: '#/components/schemas/ParamDetails'
+        output:
+          type: array
+          items:
+            $ref: '#/components/schemas/ParamDetails'
+    RaffleSchema:
+      type: object
+      properties:
+        totalEntries:
+          type: integer
+        maxEntries:
+          type: integer
+        winnersMerkle:
+          type: string
+        claimDate:
+          type: string
+          format: date
+    ContentSchema:
+      type: object
+      properties:
+        type:
+          type: string
+        url:
+          type: string
+        question:
+          type: string
+        options:
+          type: array
+          items:
+            type: string
+    RewardSchema:
+      type: object
+      properties:
+        value:
+          type: string
+        contentBlock:
+          $ref: '#/components/schemas/ContentSchema'
+        estimatedValue:
+          type: string
+        mintPrice:
+          type: integer
+        details:
+          type: array
+          items:
+            type: string
+        image:
+          type: string
+        type:
+          type: string
+        currency:
+          type: string
+        count:
+          type: integer
+        expiry:
+          type: string
+        chainId:
+          type: integer
+    OtherRequirementSchema:
+      type: object
+      properties:
+        requirementType:
+          type: string
+        collectionID:
+          type: string
+        mandatory:
+          type: boolean
+        numberOfEntries:
+          type: integer
+        whitelisted:
+          type: array
+          items:
+            type: string
+    EligibleSchema:  # Added EligibleSchema definition
+      type: object
+      properties:
+        eligibleType:
+          type: string
+        participants:
+          type: array
+          items:
+            type: string
+        externalService:
+          type: string
+        traits:
+          type: array
+          items:
+            type: object
+            properties:
+              key:
+                type: string
+              value:
+                type: string
+        numberOfEntries:
+          type: integer
+        collectionImage:
+          type: string
+        collectionName:
+          type: string
+        chainId:
+          type: integer
+        collectionAddress:
+          type: string
+        taskDetails:
+          type: array
+          items:
+            $ref: '#/components/schemas/TaskDetails'
+    UtilitySchema:
+      type: object
+      properties:
+        utilityId:
+          type: string
+        utilityIndex:
+          type: integer
+        provider:
+          type: string
+        winners:
+          type: array
+          items:
+            type: string
+        participants:
+          type: array
+          items:
+            type: string
+        chainId:
+          type: integer
+        utilityType:
+          type: string
+        usage:
+          type: object
+          properties:
+            expiryOrUsage:
+              type: integer
+            startOnClaim:
+              type: boolean
+        raffle:
+          $ref: '#/components/schemas/RaffleSchema'
+        eligible:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/EligibleSchema'
+        partner:
+          type: string
+        selectionType:
+          type: string
+        title:
+          type: string
+        category:
+          type: string
+        image_url:
+          type: string
+        reward:
+          $ref: '#/components/schemas/RewardSchema'
+        createdAt:
+          type: string
+          format: date
+        description:
+          type: string
+        startDate:
+          type: string
+          format: date
+        endDate:
+          type: string
+          format: date
+    CreateClientResponse:
+        type: object
+        properties:
+          success:
+            type: boolean
+            example: true
+          message:
+            type: string
+    VerifyOtpRequest:
+      type: object
+      properties:
+        email:
+          type: string
+          example: johndoe@gmail.com
+        otp:
+          type: string
+          example: 123456
+    VerifyOtpResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+        API_KEY:
+          type: string
+          example: "your-generated-api-key"
+    ErrorResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: false
+        message:
+          type: string
+          example: "error message"

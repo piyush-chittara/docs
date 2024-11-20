@@ -1,0 +1,225 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Asset Manager API",
+    "description": "API documentation for managing asset managers.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://stagingindexer.streamnft.tech"
+    }
+  ],
+  "paths": {
+    "/assetManager/{chainId}": {
+      "get": {
+        "tags": ["Asset Manager"],
+        "summary": "Get Asset Manager by Chain ID",
+        "parameters": [
+          {
+            "name": "chainId",
+            "in": "path",
+            "description": "The ID of the blockchain chain",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "296"
+          },
+          {
+            "name": "user",
+            "in": "query",
+            "description": "The user who initialized the asset manager",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "provider",
+            "in": "query",
+            "description": "The provider of the asset manager",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "collection",
+            "in": "query",
+            "description": "The token address of the asset collection",
+            "schema": {
+              "type": "string",
+              "default": "0x00000000000000000000000000000000003a05ad"
+            }
+          },
+          {
+            "name": "rentee",
+            "in": "query",
+            "description": "The current rentee of the asset manager",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "state",
+            "in": "query",
+            "description": "The state of the asset manager (Valid values: LOAN | RENT | STALE | PRE_LOAN)",
+            "schema": {
+              "type": "string",
+              "enum": ["LOAN", "RENT", "STALE", "PRE_LOAN"]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AssetManager"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AssetManager": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "initializer": {
+            "type": "string"
+          },
+          "loan_pool_index": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "loan_offer_index": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "state": {
+            "type": "string",
+            "description": "Specifies the state of the asset. Possible values include 'STALE', indicating that the asset is on the marketplace listed by a user, and 'RENT', indicating that the asset is currently rented out."
+          },
+          "loan_expiry": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "provider": {
+            "type": "string"
+          },
+          "rate": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "validity_expiry": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "is_fixed": {
+            "type": "boolean"
+          },
+          "fixed_minutes": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "rent_expiry": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "rentee": {
+            "type": "string",
+            "description": "Specifies the current rentee of the asset. If the asset is not currently rented out, this field may be null."
+          },
+          "private_rental": {
+            "type": "boolean"
+          },
+          "owner_share": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "whitelist": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "metadata_uri": {
+            "type": "string"
+          },
+          "metadata_link": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string"
+          },
+          "chain_id": {
+            "type": "string"
+          },
+          "contract_address": {
+            "type": "string"
+          },
+          "token_address": {
+            "type": "string"
+          },
+          "token_id": {
+            "type": "string"
+          },
+          "rental_type": {
+            "type": "string"
+          },
+          "profit": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "domint": {
+            "type": "boolean"
+          },
+          "loan_amount": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "index": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "tx_hash": {
+            "type": "string"
+          },
+          "master_index": {
+            "type": "integer",
+            "format": "int64"
+          }
+        }
+      }
+    }
+  }
+}

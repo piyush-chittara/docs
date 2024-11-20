@@ -1,0 +1,115 @@
+openapi: '3.0.2'
+info:
+  title: Stream Utility
+  version: '1.0'
+servers:
+  - url: https://devutility.streamnft.tech
+paths:
+  /login/client:
+    post:
+      summary: Initiates the client login process and sends OTP to the provided email address.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: johndoe@gmail.com
+      responses:
+        '201':
+          description: Client created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateClientResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security: []
+  /login/verify:
+    post:
+      tags:
+        - Authentication
+      summary: Verify OTP and retrieve API key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: johndoe@gmail.com
+                otp:
+                  type: string
+                  example: 123456
+      responses:
+        '200':
+          description: OTP verified successfully, returns API key
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  API_KEY:
+                    type: string
+                    example: "your-generated-api-key"
+        '401':
+          description: OTP verification failed
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: false
+                  message:
+                    type: string
+                    example: "Invalid OTP"
+components:
+  schemas:
+    CreateClientResponse:
+        type: object
+        properties:
+          success:
+            type: boolean
+            example: true
+          message:
+            type: string
+    VerifyOtpRequest:
+      type: object
+      properties:
+        email:
+          type: string
+          example: johndoe@gmail.com
+        otp:
+          type: string
+          example: 123456
+    VerifyOtpResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+        API_KEY:
+          type: string
+          example: "your-generated-api-key"
+    ErrorResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: false
+        message:
+          type: string
+          example: "error message"

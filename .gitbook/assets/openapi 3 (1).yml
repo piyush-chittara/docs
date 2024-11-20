@@ -1,0 +1,99 @@
+openapi: 3.0.0
+info:
+  title: StreamNFT API
+  description: StreamNFT APIs to fetch user NFTs, rented NFTs
+  version: '1.0'
+servers:
+  - url: "https://devnfts.streamnft.tech"
+  - url: "https://nfts.streamnft.tech"
+paths:
+  /getNFTs/{chainId}/{wallet}:
+    get:
+      summary: Retrieve user's NFTs
+      description: |
+        This API endpoint retrieves all NFTs associated with a specific wallet address on a given blockchain network. 
+        It provides an option to include rented NFTs in the response based on a query parameter.
+      parameters:
+        - in: path
+          name: chainId
+          required: true
+          schema:
+            type: string
+          description: The chain ID to retrieve NFTs from
+        - in: path
+          name: wallet
+          required: true
+          schema:
+            type: string
+          description: The wallet address to retrieve NFTs for
+        - in: query
+          name: rent
+          required: false
+          schema:
+            type: boolean
+          description: Filter to include rented NFTs (true or false)
+      responses:
+        '200':
+          description: A list of NFTs
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        chainId:
+                          type: string
+                          description: The chain ID
+                        collection:
+                          type: string
+                          description: The collection address
+                        collectionName:
+                          type: string
+                          description: The name of the collection
+                        collectionImage:
+                          type: string
+                          description: The image of the collection (can be null)
+                        lastUpdated:
+                          type: string
+                          format: date-time
+                          description: The last update timestamp
+                        tokenType:
+                          type: string
+                          description: The type of token (e.g., ERC-721)
+                        tokenId:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              tokenId:
+                                type: string
+                                description: The token ID
+                              balance:
+                                type: string
+                                description: The balance of the token
+                              name:
+                                type: string
+                                description: The name of the token (can be null)
+                              description:
+                                type: string
+                                description: The description of the token (can be null)
+                              image:
+                                type: string
+                                description: The image URL of the token
+                              attributes:
+                                type: array
+                                items:
+                                  type: object
+                                  properties:
+                                    trait_type:
+                                      type: string
+                                      description: The trait type (e.g., Background)
+                                    value:
+                                      type: string
+                                      description: The value of the trait (e.g., Blue)
+        '500':
+          description: Server error
