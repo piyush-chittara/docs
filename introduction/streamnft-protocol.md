@@ -19,7 +19,7 @@ We have a modular smart contract where conditional ownership protocol is the bas
 * **Rent Protocol**: Assist NFT owners in generating interest from an idle asset. We provide smart registry as well as wrapped token method to enable rentals for end users on EVM whereas on Solana, rentals are enabled by transfer of actual NFT and using freezing authority. Protocol feature includes&#x20;
   * Private rentals for whitelisted users &#x20;
   * Custom Payment Token to bring balance between sink & faucet for economy
-  * To Learn more, Go to [Rent Protocol ](../streamnft-protocol/rent-protocol.md)Section and Explore Integration [here](../for-developers/rental-integration/rental-quick/)[ ](https://docs.streamnft.tech/streamnft-protocol/rent-protocol)\
+  * To Learn more, Go to [Rent Protocol ](../streamnft-protocol/rent-protocol.md)Section and Explore Integration [here](broken-reference)[ ](https://docs.streamnft.tech/streamnft-protocol/rent-protocol)\
 
 * **Loan Protocol:** It is a peer-to-peer decentralized NFT-backed loan protocol. The borrower can deposit NFT from any collection to get an instant loan whereas lenders can place in a bidding pool for a collection. We've simplified term loans by providing fixed-term loans.&#x20;
   *   To Learn more, Go to [Loan Protocol](../streamnft-protocol/loan-protocol/) Section
