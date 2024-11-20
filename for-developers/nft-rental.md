@@ -62,7 +62,7 @@ Rental marketplace can be accessed [here](https://rent.streamnft.tech/) to get l
 
 
 
-To get started with renting your project or collection through StreamNFT hosted Dapp. please complete the onboarding process by filling out the form at the following link: [Onboard Your Project](https://tally.so/r/mVQDxE).
+[ Onboard Your Project NOW!](https://tally.so/r/mVQDxE)
 
 
 
