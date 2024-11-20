@@ -1,4 +1,4 @@
-# 🔐 Rental (For Wallets)
+# 🔏 Rental (For Wallets)
 
 The Custom Integration provides developers with the flexibility to fully integrate our functionalities within wallets. This guide walkthrough JS based SDK calls which interact with both on-chain and streamNFT indexers.&#x20;
 

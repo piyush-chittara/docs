@@ -57,7 +57,7 @@
     * [Solana](for-developers/sdk-reference/loan-integration/solana.md)
 * [On-Chain Reference](for-developers/on-chain-reference.md)
 * [Wallet Provider Reference](for-developers/wallet-provider-reference/README.md)
-  * [🔐 Rental (For Wallets)](for-developers/wallet-provider-reference/rental-for-wallets/README.md)
+  * [🔏 Rental (For Wallets)](for-developers/wallet-provider-reference/rental-for-wallets/README.md)
     * [EVM](for-developers/wallet-provider-reference/rental-for-wallets/evm.md)
     * [Solana](for-developers/wallet-provider-reference/rental-for-wallets/solana.md)
   * [🔐 Loan (For Wallets)](for-developers/wallet-provider-reference/loan-for-wallets/README.md)
