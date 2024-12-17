@@ -46,7 +46,7 @@ StreamNFT brings customisation to collection owner to define: protocol treasury,
 \
 To get started with renting your project or collection through StreamNFT hosted Dapp. please complete the onboarding process by filling out the form at the following link: [Onboard Your Project](https://tally.so/r/mVQDxE).\
 \
-_Onboarding Automation Coming Soon on Application_
+&#xNAN;_&#x4F;nboarding Automation Coming Soon on Application_
 
 </details>
 

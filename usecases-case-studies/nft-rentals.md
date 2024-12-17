@@ -54,7 +54,7 @@ Artists may rent out their digital artworks to be exhibited, game producers can 
 \
 **Problems**:\
 \
-_**UnderUtilization**_: Virtual real estate and digital spaces may remain underutilized if ownership barriers are high.\
+&#xNAN;_**UnderUtilization**_: Virtual real estate and digital spaces may remain underutilized if ownership barriers are high.\
 \
 Traditional licensing models may be restrictive and lack transparency.\
 \

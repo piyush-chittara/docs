@@ -16,7 +16,7 @@ Traditional NFT transfers are immediate and unconditional, limiting the scope of
 \
 NFT Mandates are introduced as a solution to address this gap. These mandates allow for commitments to transfer NFTs at a later time, under predefined conditions. This approach expands the utility of NFTs beyond static ownership, facilitating dynamic interactions and applications in various scenarios.\
 \
-_**Smart Contract Automation**_: Smart contracts play a central role in the implementation of NFT Mandates, automating the execution of transfers when the specified conditions are met, ensuring transparency and reliability.\
+&#xNAN;_**Smart Contract Automation**_: Smart contracts play a central role in the implementation of NFT Mandates, automating the execution of transfers when the specified conditions are met, ensuring transparency and reliability.\
 \
 **Key Features**:
 

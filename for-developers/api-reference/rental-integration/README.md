@@ -32,7 +32,7 @@ Rental marketplace can be accessed [here](https://rent.streamnft.tech/) to get l
 {% hint style="success" %}
 To list your collections on the marketplace, complete the onboarding process by filling out the form at the following link: [Onboard Your Project](https://tally.so/r/mVQDxE).\
 \
-_Onboarding Automation Coming Soon on Application_
+&#xNAN;_&#x4F;nboarding Automation Coming Soon on Application_
 {% endhint %}
 
 

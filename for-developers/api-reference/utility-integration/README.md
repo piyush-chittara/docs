@@ -2,7 +2,7 @@
 description: Getting Started
 ---
 
-# 🛒 Utility Integration
+# ⚙️ Utility Integration
 
 ### Step 1: Register As Client
 
