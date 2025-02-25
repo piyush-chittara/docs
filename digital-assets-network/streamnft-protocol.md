@@ -4,7 +4,7 @@ cover: ../.gitbook/assets/Banner_New (2).png
 coverY: 0
 ---
 
-# 🚫 Challenges in Adoption
+# ❌ Challenges in Adoption
 
 Despite the **immense potential** of digital ownership, its adoption has been **slower than expected**. While blockchain technology promises **borderless transactions, decentralized ownership, and higher liquidity**, the reality is that **$400B in digital assets remain trapped** due to **structural inefficiencies**.
 

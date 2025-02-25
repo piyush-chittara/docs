@@ -4,8 +4,9 @@
 
 ## Digital Assets Network
 
-* [🚫 Challenges in Adoption](digital-assets-network/streamnft-protocol.md)
-* [🏃 Roadmap](digital-assets-network/roadmap.md)
+* [❌ Challenges in Adoption](digital-assets-network/streamnft-protocol.md)
+* [✅ DAN Stack](digital-assets-network/roadmap.md)
+* [📜 Modular Protocol](digital-assets-network/modular-protocol.md)
 * [🔐 Security Audit](digital-assets-network/security-audit.md)
 
 ## StreamNFT PROTOCOL
