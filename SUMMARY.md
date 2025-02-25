@@ -2,11 +2,11 @@
 
 * [🚀 Accelerating Digital Ownership Adoption](README.md)
 
-## Introduction
+## Digital Assets Network
 
-* [👨‍💻 StreamNFT Protocol](introduction/streamnft-protocol.md)
-* [🏃 Roadmap](introduction/roadmap.md)
-* [🔐 Security Audit](introduction/security-audit.md)
+* [🚫 Challenges in Adoption](digital-assets-network/streamnft-protocol.md)
+* [🏃 Roadmap](digital-assets-network/roadmap.md)
+* [🔐 Security Audit](digital-assets-network/security-audit.md)
 
 ## StreamNFT PROTOCOL
 
