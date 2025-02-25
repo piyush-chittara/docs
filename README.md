@@ -1,14 +1,14 @@
 ---
 description: NFT Utility Infrastructure for on-chain communities
-cover: .gitbook/assets/Screenshot 2024-07-30 at 16.06.48.png
+cover: .gitbook/assets/DAN Banner.png
 coverY: 0
 ---
 
 # 👋 Taking NFT mainStream!
 
-## Lack of utility, liquidity, and accessibility hindering NFT adoption&#x20;
+## Lack of utility, liquidity, and accessibility hindering NFT adoption
 
-**NFT** space, valued at **$20 billion**, lacks utility infrastructure for on-chain communities due to a lack of industry standards to preserve on-chain ownership while sharing conditionally with beneficiaries. Unlike DeFi, NFTs require specific standards for the transfer of conditional ownership, posing a challenge to composability. \
+**NFT** space, valued at **$20 billion**, lacks utility infrastructure for on-chain communities due to a lack of industry standards to preserve on-chain ownership while sharing conditionally with beneficiaries. Unlike DeFi, NFTs require specific standards for the transfer of conditional ownership, posing a challenge to composability.\
 \
 As the NFT market gears up for a tenfold surge in active participants and an estimated **$130 billion** economy by 2030, addressing issues such as value flow due to frequent capital formation at mints, and lower secondary volume becomes crucial. Value redistribution mechanics need to be solved to create a vibrant liquid market for NFTs and L1s need such infrastructure to attract a larger dev and user community. Furthermore, Complicated processes for offering utility post-mint result in reduced liquidity and trading activity due to the perceived lack of utility in NFTs.
 
@@ -31,4 +31,4 @@ Our company is strategically positioned to address these burgeoning needs and ch
 
 The timing for our company is ideal for several compelling reasons. Currently, the NFT market has not yet fully realized its potential in terms of widespread utility. Moreover, there is a substantial influx of entertainment-focused games and brands scheduled for launch in the upcoming years. We anticipate that the number of participants in the NFT market is set to increase dramatically, possibly by a factor of 50, over the next five years. These participants will require both liquidity and utility for their NFT assets.
 
-\
+\\
