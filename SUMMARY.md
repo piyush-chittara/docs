@@ -7,12 +7,9 @@
 * [❌ Challenges in Adoption](digital-assets-network/streamnft-protocol.md)
 * [✅ DAN Stack](digital-assets-network/roadmap.md)
 * [📜 Modular Protocol](digital-assets-network/modular-protocol.md)
-* [🔐 DAN Labs Impact](digital-assets-network/security-audit.md)
-
-***
-
-* [®️ ERC-7066 Author](erc-7066/README.md)
-  * [Overview](erc-7066/overview.md)
+* [🎯 DAN Labs Impact](digital-assets-network/dan-labs-impact.md)
+* [🔐 ®️ ERC-7066 Author](digital-assets-network/security-audit/README.md)
+  * [Overview](digital-assets-network/security-audit/overview.md)
 
 ## DAN PROTOCOLS
 

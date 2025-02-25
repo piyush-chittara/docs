@@ -2,7 +2,7 @@
 description: Interface for enabling locking of ERC-721 using locker and approved
 ---
 
-# ®️ ERC-7066 Author
+# 🔐 ®️ ERC-7066 Author
 
 ### Abstract <a href="#abstract" id="abstract"></a>
 
