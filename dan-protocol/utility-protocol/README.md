@@ -29,7 +29,7 @@ In a crowded NFT landscape, simply minting unique artwork is no longer enough to
 * _**Boost perceived value**_: The addition of ongoing utility strengthens the perception of an NFT's value, potentially leading to price appreciation and increased demand.
 * _**Foster community**_: Shared utility can create a sense of belonging and community among NFT holders, fostering a more loyal and invested user base.
 
-**How does it assist different Stakeholders?** \
+**How does it assist different Stakeholders?**\
 \
 Benefit protocol brings together a diverse set of stakeholders, each playing a pivotal role in shaping the collaborative landscape:
 
@@ -38,4 +38,3 @@ Benefit protocol brings together a diverse set of stakeholders, each playing a p
 * _**GameFi**_**:** Seeking to expand its reach by distributing games among new audiences through NFT partnerships. Allow NFT holders to use their NFTs as avatars within a gamified space exploration experience, earning rewards and unlocking new content.
 * _**DAOs**_**:** Attracting specific collection holders to participate in decentralized decision-making and governance.
 * _**Retail/Investor Holders**_**:** End users who stand to benefit directly by redeeming the utilities embedded within their NFT holdings.
-
