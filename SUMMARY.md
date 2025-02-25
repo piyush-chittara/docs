@@ -68,19 +68,10 @@
 * [🎆 Post-Mint Utility](usecases-case-studies/post-mint-utility.md)
 * [💼 Partial Payment at Mint](usecases-case-studies/partial-payment-at-mint.md)
 
-## For Users
-
-* [📚 Step By Step Rent Tutorial](for-users/step-by-step-rent-tutorial.md)
-* [📚 Step By Step Loan tutorial](for-users/step-by-step-loan-tutorial.md)
-* [📚 Step by Step Utility Tutorial](for-users/step-by-step-utility-tutorial/README.md)
-  * [Step by Step Utility Creation Tutorial](for-users/step-by-step-utility-tutorial/step-by-step-utility-creation-tutorial.md)
-  * [Step by step utility discover tutorial](for-users/step-by-step-utility-tutorial/step-by-step-utility-discover-tutorial.md)
-* [💡 Hedera Token Association](for-users/hedera-token-association.md)
-* [🔏 Privacy Policy](for-users/privacy-policy.md)
-* [🔑 Terms of Service](for-users/terms-of-service.md)
-
 ## Community
 
+* [🔑 Terms of Service](community/terms-of-service.md)
+* [🔏 Privacy Policy](community/privacy-policy.md)
 * [🌐 Website](https://www.streamnft.tech/)
 * [👽 Discord](https://www.discord.gg/MAzRF4YFjR)
 * [🐦 Twitter](https://twitter.com/Streamnfthq)
