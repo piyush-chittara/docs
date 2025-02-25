@@ -7,20 +7,23 @@
 * [❌ Challenges in Adoption](digital-assets-network/streamnft-protocol.md)
 * [✅ DAN Stack](digital-assets-network/roadmap.md)
 * [📜 Modular Protocol](digital-assets-network/modular-protocol.md)
-* [🔐 DAN Labs Impact](digital-assets-network/security-audit.md)
+* [🔐 DAN Labs Impact](digital-assets-network/security-audit/README.md)
+  * [®️ ERC-7066 Author](digital-assets-network/security-audit/erc-7066/README.md)
+    * [Overview](digital-assets-network/security-audit/erc-7066/overview.md)
 
-## DAN PROTOCOL
+## DAN PROTOCOLS
 
-* [🔓 Rent Protocol](dan-protocol/rent-protocol.md)
-* [💰 Loan Protocol](dan-protocol/loan-protocol/README.md)
-  * [How does a loan work?](dan-protocol/loan-protocol/how-does-a-loan-work.md)
-* [💰 Utility Protocol](dan-protocol/utility-protocol/README.md)
-  * [How does it work?](dan-protocol/utility-protocol/how-does-it-work.md)
-* [🎮 Web3 Gaming Services](dan-protocol/web3-gaming-services/README.md)
-  * [Matchmaking](dan-protocol/web3-gaming-services/matchmaking/README.md)
-    * [Token Gated Matchmaking](dan-protocol/web3-gaming-services/matchmaking/token-gated-matchmaking.md)
-* [®️ ERC-7066](dan-protocol/erc-7066/README.md)
-  * [Overview](dan-protocol/erc-7066/overview.md)
+* [📌 Modular Solutions for Digital Ownership](dan-protocols/modular-solutions-for-digital-ownership.md)
+* [💡 Asset Creation](dan-protocols/asset-creation.md)
+* [🤝 Marketplace](dan-protocols/marketplace.md)
+* [🔓 Rent Protocol](dan-protocols/rent-protocol.md)
+* [💰 Loan Protocol](dan-protocols/loan-protocol/README.md)
+  * [How does a loan work?](dan-protocols/loan-protocol/how-does-a-loan-work.md)
+* [💰 Utility Protocol](dan-protocols/utility-protocol/README.md)
+  * [How does it work?](dan-protocols/utility-protocol/how-does-it-work.md)
+* [🎮 Web3 Gaming Services](dan-protocols/web3-gaming-services/README.md)
+  * [Matchmaking](dan-protocols/web3-gaming-services/matchmaking/README.md)
+    * [Token Gated Matchmaking](dan-protocols/web3-gaming-services/matchmaking/token-gated-matchmaking.md)
 
 ## For Developers
 
