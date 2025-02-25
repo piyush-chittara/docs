@@ -8,8 +8,11 @@
 * [✅ DAN Stack](digital-assets-network/roadmap.md)
 * [📜 Modular Protocol](digital-assets-network/modular-protocol.md)
 * [🔐 DAN Labs Impact](digital-assets-network/security-audit.md)
-  * [®️ ERC-7066 Author](dan-protocol/erc-7066/README.md)
-    * [Overview](dan-protocol/erc-7066/overview.md)
+
+***
+
+* [®️ ERC-7066 Author](erc-7066/README.md)
+  * [Overview](erc-7066/overview.md)
 
 ## DAN PROTOCOLS
 
