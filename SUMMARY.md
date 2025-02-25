@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Taking NFT mainStream!](README.md)
+* [🚀 Accelerating Digital Ownership Adoption](README.md)
 
 ## Introduction
 
