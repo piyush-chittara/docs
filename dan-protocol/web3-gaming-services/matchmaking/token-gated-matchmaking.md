@@ -7,13 +7,10 @@ Ways to enable token gated matchmaking with tokens as NFT rewards:\
 2\. [ERC7066](https://eips.ethereum.org/EIPS/eip-7066): tokens are locked in user wallets to create a match room and transferred to the match winner.
 
 {% hint style="success" %}
-Added advantage of using ERC7066 is project access to integration-less [NFT liquidity solutions](broken-reference) requiring **0 dev efforts**.
+Added advantage of using ERC7066 is project access to integration-less [NFT liquidity solutions](../../../streamnft-protocol/web3-gaming-services/matchmaking/broken-reference/) requiring **0 dev efforts**.
 {% endhint %}
 
-
-
-Steps:\
-
+Steps:\\
 
 1. Get signer
 

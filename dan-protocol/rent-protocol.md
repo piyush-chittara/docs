@@ -16,7 +16,7 @@ The protocol works permissionless without needing any collateral and aims to sol
 
 {% tabs %}
 {% tab title="Rentals on EVM" %}
-NFTs on EVM are not inherently lockable, therefore StreamNFT has proposed [ERC7066](https://eips.ethereum.org/EIPS/eip-7066) to enable escrowless financialization tools on EVM. StreamNFT currently supports ERC721, ERC1155 and ERC7066 NFTs. Integration steps for these can be found [here](broken-reference/).
+NFTs on EVM are not inherently lockable, therefore StreamNFT has proposed [ERC7066](https://eips.ethereum.org/EIPS/eip-7066) to enable escrowless financialization tools on EVM. StreamNFT currently supports ERC721, ERC1155 and ERC7066 NFTs. Integration steps for these can be found [here](../streamnft-protocol/broken-reference/).
 
 #### Features:
 

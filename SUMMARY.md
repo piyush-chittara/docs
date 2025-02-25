@@ -9,26 +9,18 @@
 * [📜 Modular Protocol](digital-assets-network/modular-protocol.md)
 * [🔐 Security Audit](digital-assets-network/security-audit.md)
 
-## StreamNFT PROTOCOL
+## DAN PROTOCOL
 
-* [🔓 Rent Protocol](streamnft-protocol/rent-protocol.md)
-* [💰 Loan Protocol](streamnft-protocol/loan-protocol/README.md)
-  * [How does a loan work?](streamnft-protocol/loan-protocol/how-does-a-loan-work.md)
-* [💰 Utility Protocol](streamnft-protocol/utility-protocol/README.md)
-  * [How does it work?](streamnft-protocol/utility-protocol/how-does-it-work.md)
-* [🎮 Web3 Gaming Services](streamnft-protocol/web3-gaming-services/README.md)
-  * [Matchmaking](streamnft-protocol/web3-gaming-services/matchmaking/README.md)
-    * [Token Gated Matchmaking](streamnft-protocol/web3-gaming-services/matchmaking/token-gated-matchmaking.md)
-* [®️ ERC-7066](streamnft-protocol/erc-7066/README.md)
-  * [Overview](streamnft-protocol/erc-7066/overview.md)
-
-## UseCases : Case Studies
-
-* [🤝 NFT Rentals](usecases-case-studies/nft-rentals.md)
-* [💎 Ephemeral / Consumable NFTs](usecases-case-studies/ephemeral-consumable-nfts.md)
-* [📝 NFT Mandates](usecases-case-studies/nft-mandates.md)
-* [🎆 Post-Mint Utility](usecases-case-studies/post-mint-utility.md)
-* [💼 Partial Payment at Mint](usecases-case-studies/partial-payment-at-mint.md)
+* [🔓 Rent Protocol](dan-protocol/rent-protocol.md)
+* [💰 Loan Protocol](dan-protocol/loan-protocol/README.md)
+  * [How does a loan work?](dan-protocol/loan-protocol/how-does-a-loan-work.md)
+* [💰 Utility Protocol](dan-protocol/utility-protocol/README.md)
+  * [How does it work?](dan-protocol/utility-protocol/how-does-it-work.md)
+* [🎮 Web3 Gaming Services](dan-protocol/web3-gaming-services/README.md)
+  * [Matchmaking](dan-protocol/web3-gaming-services/matchmaking/README.md)
+    * [Token Gated Matchmaking](dan-protocol/web3-gaming-services/matchmaking/token-gated-matchmaking.md)
+* [®️ ERC-7066](dan-protocol/erc-7066/README.md)
+  * [Overview](dan-protocol/erc-7066/overview.md)
 
 ## For Developers
 
@@ -67,6 +59,14 @@
     * [EVM](for-developers/wallet-provider-reference/loan/evm.md)
     * [Solana](for-developers/wallet-provider-reference/loan/solana.md)
 * [⛓️ Supported Chains](for-developers/supported-chains.md)
+
+## UseCases : Case Studies
+
+* [🤝 NFT Rentals](usecases-case-studies/nft-rentals.md)
+* [💎 Ephemeral / Consumable NFTs](usecases-case-studies/ephemeral-consumable-nfts.md)
+* [📝 NFT Mandates](usecases-case-studies/nft-mandates.md)
+* [🎆 Post-Mint Utility](usecases-case-studies/post-mint-utility.md)
+* [💼 Partial Payment at Mint](usecases-case-studies/partial-payment-at-mint.md)
 
 ## For Users
 
