@@ -7,7 +7,7 @@
 * [❌ Challenges in Adoption](digital-assets-network/streamnft-protocol.md)
 * [✅ DAN Stack](digital-assets-network/roadmap.md)
 * [📜 Modular Protocol](digital-assets-network/modular-protocol.md)
-* [🔐 Security Audit](digital-assets-network/security-audit.md)
+* [🔐 DAN Labs Impact](digital-assets-network/security-audit.md)
 
 ## DAN PROTOCOL
 
