@@ -2,5 +2,5 @@
 icon: code
 ---
 
-# SDK Reference
+# SDK
 

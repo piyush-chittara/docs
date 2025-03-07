@@ -2,5 +2,5 @@
 icon: brackets-curly
 ---
 
-# API Reference
+# APIs
 

@@ -1,8 +1,12 @@
-# Utility Integration
+---
+icon: code
+---
+
+# SDK
 
 To integrate the SDK with your repository, follow the steps below. The following code snippets provide examples of how to use the SDK functions to interact with the smart contract.
 
-Testnet SDK: [streamnft-utility-test ](https://www.npmjs.com/package/streamnft-utility-test)\
+Testnet SDK: [streamnft-utility-test](https://www.npmjs.com/package/streamnft-utility-test)\
 Mainnet SDK: streamnft-evm (TBA)
 
 ```javascript
@@ -16,7 +20,7 @@ signer= stream.getSigner(chainId, privateKey, rpcUrl);
 ```
 
 \
-1\.  Create Utility\
+1\. Create Utility\
 \
 Create Utility on any NFT collection
 
@@ -183,7 +187,7 @@ This shall return index of utility created: utilityId
 {success:true, data: <index> (int)}
 ```
 
-2. Get All Utility By Collection&#x20;
+2. Get All Utility By Collection
 
 Get Utilities present on a collection
 
@@ -279,7 +283,7 @@ stream.redeemUtilityOnNFT(tokenId, utilityId, chainId,signer)
   });
 ```
 
-8. Check  NFT utility
+8. Check NFT utility
 
 Check if NFT is valid for any utility
 

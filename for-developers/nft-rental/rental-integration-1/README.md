@@ -1,4 +1,8 @@
-# Rental Integration
+---
+icon: code
+---
+
+# SDK
 
 > * Main Net SDK: [https://www.npmjs.com/package/streamnft-evm](https://www.npmjs.com/package/streamnft-evm)
 > * Test Net SDK: [https://www.npmjs.com/package/streamnft-evm-test](https://www.npmjs.com/package/streamnft-evm-test)

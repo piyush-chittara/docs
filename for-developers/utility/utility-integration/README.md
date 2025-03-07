@@ -1,8 +1,9 @@
 ---
 description: Getting Started
+icon: brackets-curly
 ---
 
-# ⚙️ Utility Integration
+# APIs
 
 ### Step 1: Register As Client
 
