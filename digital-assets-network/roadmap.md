@@ -1,6 +1,6 @@
 ---
 description: The adoption engine for Digital Ownership
-cover: ../.gitbook/assets/Banner_New (2).png
+cover: ../.gitbook/assets/Linkedin Banner.png
 coverY: 0
 ---
 

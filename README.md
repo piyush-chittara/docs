@@ -1,6 +1,6 @@
 ---
 description: Enabling businesses and communities to Build, Launch and Scale 10X faster
-cover: .gitbook/assets/DAN Banner.png
+cover: .gitbook/assets/Linkedin Banner.png
 coverY: 0
 ---
 

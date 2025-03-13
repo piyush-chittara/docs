@@ -1,6 +1,6 @@
 ---
 description: 'NFT 2.0 : Composable Cross-chain Liquidity & Utility Protocol'
-cover: ../.gitbook/assets/Banner_New (2).png
+cover: ../.gitbook/assets/Linkedin Banner.png
 coverY: 0
 ---
 

@@ -74,6 +74,6 @@
 
 * [🔑 Terms of Service](community/terms-of-service.md)
 * [🔏 Privacy Policy](community/privacy-policy.md)
-* [🌐 Website](https://www.streamnft.tech/)
+* [🌐 Website](https://www.danlabs.xyz/)
 * [👽 Discord](https://www.discord.gg/MAzRF4YFjR)
-* [🐦 Twitter](https://twitter.com/Streamnfthq)
+* [🐦 Twitter](https://x.com/dandotxyz)
