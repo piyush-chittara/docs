@@ -1,56 +1,58 @@
 # 🔑 Terms of Service
 
-**Terms of Service**
+### 1. Acceptance of Terms
 
-Welcome to StreamNFT ("we", "us", or "our"). These Terms of Service govern your use of our NFT  (NFTFi) platform. By accessing or using our platform, you agree to comply with these terms and conditions.
+Welcome to DAN, Digital Asset Network ("we," "us," or "our"). These Terms of Service govern your access and use of our platform. By using our platform, you acknowledge and agree to be bound by these terms and all applicable laws and regulations. If you do not agree to these terms, you may not use the platform.
 
-**1. Acceptance of Terms**
+### 2. Use of Platform
 
-By using our NFTFi platform, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you may not access or use our platform.
+You agree to use DAN solely for lawful purposes and in accordance with these Terms of Service. You shall not:
 
-**2. Use of Platform**
+* Interfere with or disrupt the operation of the platform.
+* Violate the rights of other users, including intellectual property rights.
+* Engage in any fraudulent, illegal, or unauthorized activities.
 
-You agree to use our NFTFi platform solely for lawful purposes and in accordance with these Terms of Service. You may not engage in any activity that interferes with or disrupts the operation of the platform or infringes upon the rights of others.
+### 3. Account Registration
 
-**3. Account Registration**
+To access certain features, you may need to connect your cryptocurrency wallet. By doing so, you agree that your wallet address will serve as your unique identifier, and you are responsible for maintaining the security of your wallet and private keys.
 
-To access certain features of our platform, you may connect your cryptocurrency wallet to get started immediately. By connecting your wallet, you agree to comply with these Terms of Service and all applicable laws and regulations. You acknowledge that your wallet address serves as your unique identifier on our platform, and you are solely responsible for maintaining the security of your wallet and any associated private keys.
+### 4. User Conduct
 
-**4. User Conduct**
+When using our platform, you agree to:
 
-You agree to use our platform responsibly and in a manner consistent with all applicable laws and regulations. While we do not require traditional account registration, you must still adhere to the following guidelines:
+* Respect the rights and privacy of others.
+* Refrain from uploading or transmitting unlawful, harmful, or offensive content.
+* Not attempt to gain unauthorized access to our platform or other users' accounts.
+* Avoid any activity that could damage or disrupt the platform.
 
-* Respect the rights of others, including intellectual property rights.
-* Refrain from uploading or transmitting any content that is unlawful, harmful, or offensive.
-* Avoid attempting to gain unauthorized access to our platform or the accounts of other users.
-* Do not engage in any conduct that could damage, disable, or impair the operation of our platform.
+### 5. Transactions
 
-**5. Transactions**
+DAN facilitates decentralized transactions. You acknowledge that:
 
-Our NFTFi platform facilitates decentralized financial transactions. You acknowledge and agree that all transactions conducted through our platform are final and irreversible. We are not responsible for any loss or damage resulting from your use of our platform or participation in any transactions.
+* All transactions on our platform are final and irreversible.
+* We are not liable for any losses, misdirected transactions, or errors.
+* You bear full responsibility for your actions and transactions.
 
-**6. Intellectual Property**
+### 6. Intellectual Property
 
-All content and materials available on our platform, including but not limited to text, graphics, logos, images, and software, are the property of StreamNFT or its licensors and are protected by copyright and other intellectual property laws. You may not use, reproduce, or distribute any content from our platform without prior written consent.
+All content, trademarks, and materials on DAN, including text, graphics, logos, images, and software, are the property of DAN or its licensors. You may not use, reproduce, or distribute any content without prior written consent.
 
-**7. Limitation of Liability**
+### 7. Limitation of Liability
 
-To the fullest extent permitted by law, we disclaim any liability for any direct, indirect, incidental, consequential, or punitive damages arising out of your use of our platform or any transactions conducted through our platform.
+To the maximum extent permitted by law, we disclaim all liability for any direct, indirect, incidental, consequential, or punitive damages arising from your use of the platform.
 
-**8. Changes to Terms**
+### 8. Changes to Terms
 
-We reserve the right to update or modify these Terms of Service at any time without prior notice. Any changes will be effective immediately upon posting on this page. Your continued use of our platform after any such changes constitutes your acceptance of the revised terms.
+We reserve the right to update or modify these Terms of Service at any time. Changes will take effect immediately upon posting on our platform. Your continued use of the platform after any modifications constitutes acceptance of the updated terms.
 
-**9. Termination**
+### 9. Termination
 
-We reserve the right to terminate or suspend your access to our platform at any time for any reason without prior notice. Upon termination, you must cease all use of our platform and delete any content or materials obtained from the platform.
+We may suspend or terminate your access to the platform at any time, without notice, for any reason, including violations of these Terms of Service. Upon termination, you must cease all use of our platform and delete any content obtained through it.
 
-**10. Governing Law**
+### 10. Governing Law
 
-These Terms of Service are governed by and construed in accordance with the laws of Saint Vincent and the Grenadines, without regard to its conflict of laws principles.
+These Terms of Service are governed by and construed in accordance with the laws of Saint Vincent and the Grenadines, without regard to conflict of laws principles.
 
-**11. Contact Us**
+### 11. Contact Us
 
-If you have any questions or concerns about these Terms of Service, please contact us at info@streamnft.tech.
-
-By using our NFTFi platform, you acknowledge and agree to these Terms of Service. Thank you for choosing StreamNFT.
+For any questions or concerns regarding these Terms of Service, please contact us at **info@danlabs.xyz**
