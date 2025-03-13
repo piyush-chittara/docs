@@ -1,73 +1,93 @@
 # 🔏 Privacy Policy
 
-Thanks for entrusting StreamNFT with your documentation, your projects, and your personal information. Holding onto your private information is a serious responsibility, and we want you to know how we're handling it.
+### 1. Our Commitment to Your Privacy
 
-## What information StreamNFT collects and why
+Thank you for trusting DAN with your projects, data, and personal information. Protecting your privacy is a serious responsibility, and we are committed to handling your data with care.
 
-### Information from website browsers
+### 2. Information We Collect and Why
 
-If you're **just browsing the website**, we collect the same basic information that most websites collect. We use common internet technologies, such as cookies and web server logs. This is stuff we collect from everybody, whether they have an account or not.
+#### Information from Website Visitors
 
-The information we collect about all visitors to our website includes the visitor’s browser type, language preference, referring site, additional websites requested, and the date and time of each visitor request. We also collect potentially personally identifying information like Internet Protocol (IP) addresses.
+If you are browsing our website, we collect standard information similar to most websites, using common internet technologies such as cookies and web server logs. This includes:
 
-#### Why do we collect this
+* Browser type
+* Language preference
+* Referring site
+* Pages visited
+* Date and time of visit
+* IP address (potentially personally identifiable information)
 
-We collect this information to better understand how our website visitors use StreamNFT and to monitor and protect the security of the website.
+**Why We Collect This Data**
 
-### Information from users with accounts
+We gather this information to better understand how users interact with our platform and to maintain the security of our website.
 
-We only collect the information necessary to provide our services effectively. When you use our website or services, we may collect the following information:
+#### Information from Users with Accounts
 
-* **Wallet Address:** We collect your wallet address to enable transactions and interactions within our platform.
-* **Usage Data:** We may collect information about how you use our website and services, such as pages visited, features accessed, and interactions made. This information helps us improve our services and user experience.
-* **Email**: While providing your email address is not mandatory, we may capture it to offer an enhanced user experience and send newsletter updates. For instance, when users opt to receive notifications via email, we utilize this information to send important updates regarding their active loans. For example, users who opt-in to receive notifications may receive repayment reminders 24 hours before their loan expiry to ensure they are informed and can take necessary actions.
-* We use the collected information for the following purposes:
-  * **Provision of Services:** To grant you access to our NFTFi platform and facilitate decentralized financial transactions securely and efficiently.
-  * **Service Improvement:** We analyze usage data to identify areas for enhancement and refinement of our platform's features and functionality, ensuring a seamless and user-friendly experience for our users.
-  * **Communication:** To communicate with you regarding urgent notifications, updates, and changes to our services, or to respond to inquiries and requests.
-  * **Security Measures:** Your security is paramount to us. We employ the information collected to safeguard the integrity of our platform, detect and prevent fraudulent activities, and protect against unauthorized access or misuse of your data.
+We only collect essential information to provide our services efficiently. This may include:
 
-### Data Security
+* **Wallet Address:** Used to facilitate transactions and platform interactions securely.
+* **Usage Data:** Information on how you use our platform, such as pages visited and features accessed, to enhance functionality and improve user experience.
+* **Email:** Optional but collected when provided. Used for notifications, updates, and newsletters. For example, if you opt-in, we may send repayment reminders 24 hours before loan expiry to help you take necessary actions.
 
-We are committed to ensuring the security and confidentiality of your information. We implement industry-standard security measures to protect your data against unauthorized access, alteration, disclosure, or destruction.
+### 3. How We Use Your Information
 
-In the event of a data breach that affects your User Personal Information, we will act promptly to mitigate the impact of a breach and notify any affected users.
+#### **Provision of Services**
 
-Transmission of data on StreamNFT is encrypted using HTTPS, and SSL/TLS. Data are stored and encrypted by trusted third-party cloud providers (such as Google Cloud or Amazon AWS).
+We use collected information to grant platform access, enable transactions, and ensure secure interactions.
 
-No method of transmission, or method of electronic storage, is 100% secure. Therefore, we cannot guarantee its absolute security.
+#### **Service Improvement**
 
-### Third-Party Services
+Analyzing usage data helps us refine our platform’s features, making it more seamless and user-friendly.
 
-\
-We may integrate third-party services or utilize external partnerships to enhance the functionality of our NFTFi platform. While doing so, we ensure that these third-party services adhere to strict privacy standards and maintain the confidentiality of your information.
+#### **Communication**
 
-### Data Retention
+We use your contact information for:
 
-We retain your information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy or as required by applicable laws and regulations.
+* Urgent notifications
+* Service updates
+* Responding to inquiries and support requests
 
-### Children's Privacy
+#### **Security Measures**
 
-Our services are not intended for individuals under the age of 18, and we do not knowingly collect personal information from minors. If we become aware of any such information being collected inadvertently, we will take immediate steps to remove it from our records.
+We use collected data to prevent fraud, detect unauthorized access, and protect our platform’s integrity.
 
-### How we, and others, communicate with you
+### 4. Data Security
 
-We will use your email address to communicate with you if you've said that's okay, **and only for the reasons you’ve said that’s okay**. For example, if you contact our Support team with a request, we will respond to you via email. You have a lot of control over how your email address is used and shared on and through StreamNFT.&#x20;
+We implement industry-standard measures to ensure data confidentiality and security, including:
 
-Depending on your email settings, StreamNFT may occasionally send notification emails about changes in a space you’re contributing to, new features, requests for feedback, important policy changes, or offer customer support. We also send marketing emails, but only with your consent, if you opt into our list. There's an unsubscribe link located at the bottom of each of the marketing emails we send you. Please note that you can not opt out of receiving important communications from us, such as emails from our Support team or system emails, but you can configure your notifications settings in your profile.
+* **Encrypted data transmission using HTTPS and SSL/TLS**
+* **Secure storage with trusted third-party cloud providers (e.g., Google Cloud, Amazon AWS)**
 
-Our emails might contain a pixel tag, which is a small, clear image that can tell us whether or not you have opened an email and what your IP address is. We use this pixel tag to make our email more effective for you and to make sure we’re not sending you unwanted emails.
+While we take all necessary precautions, no transmission or storage method is 100% secure. In case of a data breach, we will act swiftly to mitigate its impact and notify affected users.
 
-### Changes to our Privacy Statement
+### 5. Third-Party Services
 
-We reserve the right to update or modify this Privacy Policy periodically. Any changes will be reflected on this page, and your continued use of our NFTFi platform after such changes implies your acceptance of the revised Privacy Policy.
+To enhance our platform’s functionality, we may integrate third-party services. We ensure that all external partners adhere to strict privacy standards and safeguard your information.
 
-### Contacting StreamNFT
+### 6. Data Retention
 
-If you have any questions, concerns, or feedback regarding this Privacy Policy or our data practices, please do not hesitate to contact us at info@streamnft.tech.
+We retain user data only for as long as necessary to fulfill the purposes outlined in this policy or as required by applicable laws.
 
-By using our NFTFi platform, you acknowledge and consent to the terms of this Privacy Policy. Thank you for entrusting us with your privacy.
+### 7. Children's Privacy
 
+Our platform is not intended for individuals under 18. We do not knowingly collect personal data from minors. If discovered, such data will be promptly deleted.
 
+### 8. Communication Preferences
 
-##
+#### **How We, and Others, Communicate With You**
+
+We use your email address for communication based on your preferences. You can control your settings, but:
+
+* **Essential notifications (e.g., support responses, system alerts) cannot be disabled.**
+* **Marketing emails require opt-in and always include an unsubscribe link.**
+* **Some emails may contain pixel tags to track engagement and improve our messaging.**
+
+### 9. Changes to This Privacy Policy
+
+We reserve the right to update this Privacy Policy periodically. Any changes will be reflected on this page. Continued use of our platform signifies acceptance of the revised terms.
+
+### 10. Contact Us
+
+For questions, concerns, or feedback, please contact us at **info@danlabs.xyz**.
+
+By using DAN, you acknowledge and consent to this Privacy Policy. Thank you for trusting us with your privacy.
