@@ -25,11 +25,13 @@
 ## For Developers
 
 * [🚀 Launchpad](for-developers/launchpad/README.md)
-  * [APIs](for-developers/launchpad/apis/README.md)
+  * [APIs](for-developers/launchpad/apis.md)
     * [Collections Created](for-developers/launchpad/apis/collections-created.md)
     * [Collection Details](for-developers/launchpad/apis/collection-details.md)
   * [SDK](for-developers/launchpad/sdk/README.md)
-    * [Page 1](for-developers/launchpad/sdk/page-1.md)
+    * [Create Listing](for-developers/launchpad/sdk/create-listing.md)
+    * [Buy Listed NFT](for-developers/launchpad/sdk/buy-listed-nft.md)
+    * [Cancel Listing](for-developers/launchpad/sdk/cancel-listing.md)
 * [🛒 Market](for-developers/market/README.md)
   * [APIs](for-developers/market/marketplace.md)
   * [SDK](for-developers/market/marketplace-1.md)
