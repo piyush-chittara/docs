@@ -7,7 +7,12 @@
   },
   "servers": [
     {
-      "url": "https://stagingindexer.streamnft.tech"
+      "url": "https://api.danlabs.xyz",
+      "description": "Production Environment"
+    },
+    {
+      "url": "https://api-staging.danlabs.xyz",
+      "description": "Staging Environment"
     }
   ],
   "paths": {
@@ -29,7 +34,7 @@
           {
             "name": "user",
             "in": "query",
-            "description": "The user who initialized the asset manager",
+            "description": "NFT owner",
             "schema": {
               "type": "string"
             }
@@ -37,7 +42,7 @@
           {
             "name": "provider",
             "in": "query",
-            "description": "The provider of the asset manager",
+            "description": "Loan provided by",
             "schema": {
               "type": "string"
             }
@@ -45,7 +50,7 @@
           {
             "name": "collection",
             "in": "query",
-            "description": "The token address of the asset collection",
+            "description": "The token address of the collection",
             "schema": {
               "type": "string",
               "default": "0x00000000000000000000000000000000003a05ad"
@@ -66,6 +71,14 @@
             "schema": {
               "type": "string",
               "enum": ["LOAN", "RENT", "STALE", "PRE_LOAN"]
+            }
+          },
+          {
+            "name": "onlyRentData",
+            "in": "query",
+            "description": "filter to only get rented NFT data (rentee, owner, rent_expiry, state)",
+            "schema": {
+              "type": "boolean"
             }
           }
         ],

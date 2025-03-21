@@ -4,14 +4,16 @@ The Asset Manager API provides functionalities for managing asset managers in a 
 
 **Endpoint:**
 
-> * Main Net Base URL: [https://indexer.streamnft.tech/](https://indexer.streamnft.tech/)
-> * Test Net Base URL: [https://stagingindexer.streamnft.tech/](https://stagingindexer.streamnft.tech/)
+> * Main Net Base URL: https://api.danlabs.xyz
+> * Test Net Base URL: https://api-staging.danlabs.xyz
+
+
 
 ## **1. Use StreamNFT Indexer (1 API Call to get all User NFTs)**
 
-{% swagger src="../../../.gitbook/assets/openapi 3 (1).yml" path="/getNFTs/{chainId}/{wallet}" method="get" %}
-[openapi 3 (1).yml](<../../../.gitbook/assets/openapi 3 (1).yml>)
-{% endswagger %}
+{% openapi src="../../../.gitbook/assets/openapi3.yml" path="/getNFTs/{chainId}/{wallet}" method="get" %}
+[openapi3.yml](../../../.gitbook/assets/openapi3.yml)
+{% endopenapi %}
 
 ## **2. Use External Indexer (2 API Call to get all User NFTs)**
 
@@ -20,17 +22,17 @@ _Query Parameters specific for rentals_**:**
 * `collection`: Filter for token address of the NFT collection
 * `rentee`: Filter for assets rented by a wallet
 * `state`: Filter for all assets on Marketplace (STALE) or rented out (RENT)
-* `onlyRentData` : Output only rental data (NFT rentee, NFT owner,  rental expiry, state)
+* `onlyRentData` : Output only rental data (NFT rentee, NFT owner, rental expiry, state)
 
-{% swagger src="../../../.gitbook/assets/openapi.yml" path="/assetManager/{chainId}" method="get" %}
-[openapi.yml](../../../.gitbook/assets/openapi.yml)
-{% endswagger %}
+{% openapi src="../../../.gitbook/assets/openapi (2).yml" path="/assetManager/{chainId}" method="get" %}
+[openapi (2).yml](<../../../.gitbook/assets/openapi (2).yml>)
+{% endopenapi %}
 
 **Response:**
 
 * Successful responses return an array of asset managers for provided token address with detailed information, such as the current rentee and the state of each asset.
 
-### Example: How to Integrate **External Indexer**
+### Example: How to Integrate with exiting **external NFT indexer**
 
 * Get all rented collection NFTs by user wallet
 

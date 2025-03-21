@@ -1,7 +1,3 @@
----
-icon: file-invoice-dollar
----
-
 # 🗞️ Rentals
 
 **NFT Rental Integration Overview**

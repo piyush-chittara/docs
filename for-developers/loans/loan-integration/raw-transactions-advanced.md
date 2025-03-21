@@ -1,12 +1,17 @@
 # Raw Transactions (Advanced)
 
+**Endpoint:**
+
+> * Main Net Base URL: https://api.danlabs.xyz
+> * Test Net Base URL: https://api-staging.danlabs.xyz
+
 #### 1. Create a Bid Pool
 
 This operation creates a bid pool for a specific collection.
 
-{% swagger src="../../../.gitbook/assets/apidoc.json" path="/createLoanPool" method="post" %}
+{% openapi src="../../../.gitbook/assets/apidoc.json" path="/createLoanPool" method="post" %}
 [apidoc.json](../../../.gitbook/assets/apidoc.json)
-{% endswagger %}
+{% endopenapi %}
 
 {% tabs %}
 {% tab title="Unity" %}
@@ -51,9 +56,9 @@ Console.WriteLine("{0}", response.Content);
 
 This operation retrieves the bid pool.
 
-{% swagger src="../../../.gitbook/assets/apidoc.json" path="/getLoanPool" method="get" %}
+{% openapi src="../../../.gitbook/assets/apidoc.json" path="/getLoanPool" method="get" %}
 [apidoc.json](../../../.gitbook/assets/apidoc.json)
-{% endswagger %}
+{% endopenapi %}
 
 {% tabs %}
 {% tab title="Unity" %}
@@ -81,9 +86,9 @@ Console.WriteLine("{0}", response.Content);
 
 This operation adds liquidity to a created Bid Pool.
 
-{% swagger src="../../../.gitbook/assets/apidoc.json" path="/addLoanOffer" method="post" %}
+{% openapi src="../../../.gitbook/assets/apidoc.json" path="/addLoanOffer" method="post" %}
 [apidoc.json](../../../.gitbook/assets/apidoc.json)
-{% endswagger %}
+{% endopenapi %}
 
 {% tabs %}
 {% tab title="Unity" %}
@@ -126,9 +131,9 @@ Console.WriteLine("{0}", response.Content);
 
 This operation retrieves the bid manager.
 
-{% swagger src="../../../.gitbook/assets/apidoc.json" path="/getLoanOffers" method="get" %}
+{% openapi src="../../../.gitbook/assets/apidoc.json" path="/getLoanOffers" method="get" %}
 [apidoc.json](../../../.gitbook/assets/apidoc.json)
-{% endswagger %}
+{% endopenapi %}
 
 {% tabs %}
 {% tab title="Unity" %}
@@ -184,9 +189,9 @@ Console.WriteLine("{0}", response.Content);
 
 This operation retrieves the asset manager.
 
-{% swagger src="../../../.gitbook/assets/apidoc.json" path="/getAssetInfo/{mint}" method="get" %}
+{% openapi src="../../../.gitbook/assets/apidoc.json" path="/getAssetInfo/{mint}" method="get" %}
 [apidoc.json](../../../.gitbook/assets/apidoc.json)
-{% endswagger %}
+{% endopenapi %}
 
 {% tabs %}
 {% tab title="Unity" %}
@@ -216,9 +221,9 @@ Console.WriteLine("{0}", response.Content);
 
 Collection holders can claim loan on their NFTs.
 
-{% swagger src="../../../.gitbook/assets/apidoc.json" path="/processLoan" method="post" %}
+{% openapi src="../../../.gitbook/assets/apidoc.json" path="/processLoan" method="post" %}
 [apidoc.json](../../../.gitbook/assets/apidoc.json)
-{% endswagger %}
+{% endopenapi %}
 
 {% tabs %}
 {% tab title="Unity" %}
@@ -255,15 +260,13 @@ Console.WriteLine("{0}", response.Content);
 {% endtab %}
 {% endtabs %}
 
-
-
 #### 8. Repay Loan
 
 Repay loan already taken by the user.
 
-{% swagger src="../../../.gitbook/assets/apidoc.json" path="/repayLoan" method="post" %}
+{% openapi src="../../../.gitbook/assets/apidoc.json" path="/repayLoan" method="post" %}
 [apidoc.json](../../../.gitbook/assets/apidoc.json)
-{% endswagger %}
+{% endopenapi %}
 
 {% tabs %}
 {% tab title="Unity" %}
@@ -306,9 +309,9 @@ Console.WriteLine("{0}", response.Content);
 
 Liquidity providers can remove provided liquidity.
 
-{% swagger src="../../../.gitbook/assets/apidoc.json" path="/removeLoanOffer" method="post" %}
+{% openapi src="../../../.gitbook/assets/apidoc.json" path="/removeLoanOffer" method="post" %}
 [apidoc.json](../../../.gitbook/assets/apidoc.json)
-{% endswagger %}
+{% endopenapi %}
 
 {% tabs %}
 {% tab title="Unity" %}
@@ -344,4 +347,3 @@ Console.WriteLine("{0}", response.Content);
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -3,6 +3,13 @@ info:
   title: Collection & Launchpad APIs
   description: API for managing collections, tokens, and IPFS metadata.
   version: 1.0.0
+servers:
+  - url: https://launchpad.danlabs.xyz
+    description: Production server
+  - url: https://launchpad-staging.danlabs.xyz
+    description: Staging server
+  - url: https://launchpad-dev.danlabs.xyz
+    description: Development server
 paths:
   /collection/addCollection:
     post:

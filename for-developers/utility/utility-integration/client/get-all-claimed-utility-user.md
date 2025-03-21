@@ -1,5 +1,5 @@
 # Get All Claimed Utility User
 
-{% swagger src="../../../../.gitbook/assets/swagger.yml" path="/claims/{utilityId}" method="get" %}
-[swagger.yml](../../../../.gitbook/assets/swagger.yml)
-{% endswagger %}
+{% openapi src="../../../../.gitbook/assets/swagger (3).yml" path="/claims/{utilityId}" method="get" %}
+[swagger (3).yml](<../../../../.gitbook/assets/swagger (3).yml>)
+{% endopenapi %}

@@ -2,8 +2,10 @@
 
 Once you receive the OTP, verify it by sending another POST request to the same endpoint. This request should include both your email address and the OTP you received.
 
-{% openapi src="../../../../.gitbook/assets/openapi" path="/login/verify" method="post" %}
-[openapi](../../../../.gitbook/assets/openapi)
+
+
+{% openapi src="../../../../.gitbook/assets/swagger (3).yml" path="/login/verify" method="post" %}
+[swagger (3).yml](<../../../../.gitbook/assets/swagger (3).yml>)
 {% endopenapi %}
 
 **Response:**

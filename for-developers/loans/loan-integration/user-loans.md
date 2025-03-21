@@ -4,8 +4,8 @@ The Asset Manager API provides functionalities for managing asset managers in a 
 
 **Endpoint:**
 
-> * Main Net Base URL: [https://indexer.streamnft.tech/](https://indexer.streamnft.tech/)
-> * Test Net Base URL: [https://stagingindexer.streamnft.tech/](https://stagingindexer.streamnft.tech/)
+> * Main Net Base URL: https://api.danlabs.xyz
+> * Test Net Base URL: https://api-staging.danlabs.xyz
 
 * `GET /assetManager/{chainId}`: Retrieves asset managers by their chain ID and contract address.
 
@@ -19,9 +19,11 @@ The Asset Manager API provides functionalities for managing asset managers in a 
 * `rentee`: Filter for assets rented by a wallet
 * `state`: Filter for all assets on loan (LOAN)
 
-{% swagger src="../../../.gitbook/assets/openapi.yml" path="/assetManager/{chainId}" method="get" %}
-[openapi.yml](../../../.gitbook/assets/openapi.yml)
-{% endswagger %}
+
+
+{% openapi src="../../../.gitbook/assets/openapi (2).yml" path="/assetManager/{chainId}" method="get" %}
+[openapi (2).yml](<../../../.gitbook/assets/openapi (2).yml>)
+{% endopenapi %}
 
 **Response:**
 

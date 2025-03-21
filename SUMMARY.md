@@ -25,7 +25,11 @@
 ## For Developers
 
 * [🚀 Launchpad](for-developers/launchpad/README.md)
-  * [APIs](for-developers/launchpad/apis.md)
+  * [APIs](for-developers/launchpad/apis/README.md)
+    * [Collections Created](for-developers/launchpad/apis/collections-created.md)
+    * [Collection Details](for-developers/launchpad/apis/collection-details.md)
+  * [SDK](for-developers/launchpad/sdk/README.md)
+    * [Page 1](for-developers/launchpad/sdk/page-1.md)
 * [🛒 Market](for-developers/market/README.md)
   * [APIs](for-developers/market/marketplace.md)
   * [SDK](for-developers/market/marketplace-1.md)
