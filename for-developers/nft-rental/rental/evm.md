@@ -1,10 +1,18 @@
 # EVM
 
+```sh
+npm install streamnft-evm
+```
+
+```javascript
+import * as stream from 'streamnft-evm';
+```
+
 To integrate the SDK with your repository, follow the steps below. The following code snippets provide examples of how to use the SDK functions to interact with the smart contract.
 
 ```
-Testnet SDK: streamnft-evm-test
 Mainnet SDK: streamnft-evm
+Testnet SDK: streamnft-evm-test
 ```
 
 **1. Get Rented NFTs By Wallet:**
@@ -12,7 +20,7 @@ Mainnet SDK: streamnft-evm
 To retrieve the details of a specific user asset, you can use the following function:
 
 * Specify the user's public address and the index of the user asset.
-* Provide the chainId&#x20;
+* Provide the chainId
 
 ```javascript
 const stream = require('streamnft-evm-test');
@@ -58,7 +66,7 @@ Executing this code will fetch the details of the user asset associated with the
 To retrieve the details of a specific user asset, you can use the following function:
 
 * Specify the user's public address and the index of the user asset.
-* Provide the chainId&#x20;
+* Provide the chainId
 
 ```javascript
 const stream = require('streamnft-evm-test');
@@ -101,8 +109,7 @@ Example Response:
 { success: false, data: <error>}
 ```
 
-Executing this code will fetch the details of the user asset associated with the provided user address and collection. The result will contain information such as the asset's token address, token ID, and other relevant details pertaining to the asset rental.\
-
+Executing this code will fetch the details of the user asset associated with the provided user address and collection. The result will contain information such as the asset's token address, token ID, and other relevant details pertaining to the asset rental.\\
 
 **3. Initialize Rent for a Specific Asset:**
 
@@ -162,7 +169,7 @@ stream.lendToken(
 To retrieve the asset manager details for a specific token, you can use the following function:
 
 * Provide the token address and token ID of the asset.
-* Specify the chainId&#x20;
+* Specify the chainId
 
 <pre class="language-javascript"><code class="lang-javascript">const stream = require('streamnft-evm-test');
 
@@ -253,8 +260,6 @@ stream.stream.processRent(tokenAddress, tokenId, durationMinutes, chainId, signe
 
 Executing this code will trigger the rental process for the specified asset. Ensure that you provide the correct token address and token ID corresponding to the asset you want to initiate the rent for. Set the desired duration of the rent in minutes. The result will indicate the success of the rental process, and you can handle it accordingly in your application.
 
-
-
 **6. Expire a Rent for a Specific Asset:**
 
 To expire a rent for a specific asset, you can use the following function:
@@ -288,8 +293,6 @@ By executing this code, you initiate the process to expire the rent for the spec
 ```json
 { success: false, data: <error>}
 ```
-
-
 
 **7. Cancel a Rent for a Specific Asset:**
 
@@ -443,8 +446,7 @@ stream.getAssetsByUserAndCollection(wallet, tokenAddress, chainId)
   });
 ```
 
-By executing this code, you get all all assets for provided collection and user\
-
+By executing this code, you get all all assets for provided collection and user\\
 
 **Example Response:**
 
@@ -536,7 +538,7 @@ By executing this code, you get all all assets for provided collection and user\
 To retrieve the details of a specific user asset, you can use the following function:
 
 * Specify the user's public address and the index of the user asset.
-* Provide the chainId&#x20;
+* Provide the chainId
 
 ```javascript
 const stream = require('streamnft-evm-test');

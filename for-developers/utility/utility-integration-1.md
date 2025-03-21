@@ -10,7 +10,7 @@ Testnet SDK: [streamnft-utility-test](https://www.npmjs.com/package/streamnft-ut
 Mainnet SDK: streamnft-evm (TBA)
 
 ```javascript
-const stream = require('streamnft-utility-test');
+const stream = require('streamnft-utility');
 
 //for browser wallets
 signer = stream.getWalletSigner();  
@@ -170,7 +170,7 @@ Create Utility on any NFT collection
 </details>
 
 ```javascript
-const stream = require('streamnft-utility-test');
+const stream = require('streamnft-utility');
 
 stream.createUtility(utility, chainId, signer)
   .then((result) => {
@@ -192,7 +192,7 @@ This shall return index of utility created: utilityId
 Get Utilities present on a collection
 
 ```javascript
-const stream = require('streamnft-utility-test');
+const stream = require('streamnft-utility');
 
 stream.getAllUtilityByCollection(collectionAddress)
   .then((result) => {
@@ -208,7 +208,7 @@ stream.getAllUtilityByCollection(collectionAddress)
 Get all Utilities accessible to a wallet
 
 ```javascript
-const stream = require('streamnft-utility-test');
+const stream = require('streamnft-utility');
 
 stream.getAllUtilityByUser(wallet, chainId)
   .then((result) => {
@@ -224,7 +224,7 @@ stream.getAllUtilityByUser(wallet, chainId)
 Join Raffle Type Utility
 
 ```javascript
-const stream = require('streamnft-utility-test');
+const stream = require('streamnft-utility');
 
 stream.joinRaffle(chainId, utilityId, signer)
   .then((result) => {
@@ -240,7 +240,7 @@ stream.joinRaffle(chainId, utilityId, signer)
 Claim reward for giveaways utilities
 
 ```javascript
-const stream = require('streamnft-utility-test');
+const stream = require('streamnft-utility');
 
 stream.claimReward(chainId, utilityId, user, proof, signer)
   .then((result) => {
@@ -256,7 +256,7 @@ stream.claimReward(chainId, utilityId, user, proof, signer)
 Claim NFT benefit utility
 
 ```javascript
-const stream = require('streamnft-utility-test');
+const stream = require('streamnft-utility');
 
 stream.claimUtilityOnNFT(user, tokenId, utilityId, proof, chainId,signer)
   .then((result) => {
@@ -272,7 +272,7 @@ stream.claimUtilityOnNFT(user, tokenId, utilityId, proof, chainId,signer)
 Redeem NFT benefit utility
 
 ```javascript
-const stream = require('streamnft-utility-test');
+const stream = require('streamnft-utility');
 
 stream.redeemUtilityOnNFT(tokenId, utilityId, chainId,signer)
   .then((result) => {
@@ -288,7 +288,7 @@ stream.redeemUtilityOnNFT(tokenId, utilityId, chainId,signer)
 Check if NFT is valid for any utility
 
 ```javascript
-const stream = require('streamnft-utility-test');
+const stream = require('streamnft-utility');
 
 stream.checkNFTUtility(tokenId, utilityId, chainId, provider)
   .then((result) => {

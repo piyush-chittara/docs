@@ -1,5 +1,13 @@
 # EVM
 
+```sh
+npm install streamnft-evm
+```
+
+```javascript
+import * as stream from 'streamnft-evm';
+```
+
 **1. Initialize a bid pool:**
 
 To create a bid pool for your NFT collection, follow the steps below:
@@ -36,8 +44,6 @@ stream.createLoanPool(
 {% endtabs %}
 
 By following these steps, you can create a bid pool for your NFT collection and manage various loan-related operations efficiently using the SDK. Remember to replace the placeholder `TOKEN_ADDRESS` with the actual address of your ERC721 token.
-
-
 
 **2. Get bid pool details by bidPoolIndex:**
 
@@ -79,13 +85,9 @@ Response object of bid pool :
 
 This code snippet demonstrates how to use and handle the returned data from the `getBidPools` function, as well as provides descriptions of the properties in the BidPool data structure.
 
-
-
 By executing this code snippet, you will receive the details and information associated with the bid pool for your NFT collection. Remember to replace the `bidPoolIndex` with the actual index of the bid pool you want to retrieve.
 
-
-
-**3. Get the length of the bid pool:**&#x20;
+**3. Get the length of the bid pool:**
 
 To retrieve the length of the bidding pool for your NFT collection, you can use the following method: chainId: The identifier of the blockchain where the NFTs reside.
 
@@ -107,9 +109,7 @@ getBidPoolLength(chainId)
 
 By executing this code snippet, you will receive the total number of bid pools associated with your NFT collection on the specified blockchain. Remember to replace the `chainId` with the actual identifier of the blockchain where your NFTs are located.
 
-
-
-**4. Get all bid pools:**&#x20;
+**4. Get all bid pools:**
 
 To retrieve all the bidding pools for your NFT collection, you can use the following method: chainId: The identifier of the blockchain where the NFTs reside.
 
@@ -148,11 +148,7 @@ Response object of bid pool List :
 
 This code snippet demonstrates how to use and handle the returned data from the `getBidPools` function, as well as provides descriptions of the properties in the BidPool data structure.
 
-
-
 By executing this code snippet, you will receive a list of all the bid pools associated with your NFT collection on the specified blockchain. Remember to replace the `chainId` with the actual identifier of the blockchain where your NFTs are located.
-
-
 
 **5. Creating a Bid Manager:**
 
@@ -179,8 +175,6 @@ stream.addLoanOffer(bidPoolIndex, bidAmount, totalBids, chainId, signer)
 
 By executing this code, a bid manager will be created within the specified bid pool. Ensure that you provide the appropriate values for the bid pool index, bid amount, and total number of bids to customize the bid manager according to your requirements.
 
-
-
 **6. Retrieving Bid Manager Details:**
 
 To retrieve the details of a bid manager, you can use the following function:
@@ -206,16 +200,12 @@ stream.getLoanOffer(bidPoolIndex, bidManagerIndex, chainId)
 
 Executing this code will fetch the details of the specified bid manager, including relevant information such as bid manager address, bid pool index, bid amount, and other related data. Make sure to provide the correct bid pool index and bid manager index to retrieve the desired bid manager details.
 
-
-
 **7. Cancel a Bid Manager:**
 
 To cancel a bid manager and remove it from the bidding pool, you can utilize the following function:
 
 * Specify the bid pool index and bid manager index of the bid manager you want to cancel.
 * Provide the chainId and signer information.
-
-
 
 {% tabs %}
 {% tab title="JS" %}
@@ -234,8 +224,6 @@ const bidManagerIndex = 0; // Index of the bid manager
 {% endtabs %}
 
 By executing this code, you will initiate the cancellation process for the specified bid manager within the bidding pool. Ensure that you provide the correct bid pool index and bid manager index to cancel the intended bid manager successfully.
-
-
 
 **8. Processing a Loan:**
 
@@ -264,16 +252,12 @@ processLoan(bidPoolIndex, bidManagerIndex, tokenId, chainId, signer)
 
 By executing this code, you will trigger the processing of the loan associated with the specified bid pool and bid manager. The provided token ID is used to identify the specific loan to be processed. Ensure that you provide the correct bid pool index, bid manager index, and token ID to process the desired loan successfully.
 
-
-
 **9. Get User Asset Details:**
 
 To retrieve the details of a specific user asset, you can use the following function:
 
 * Specify the user's public address and the index of the user asset.
 * Provide the chainId .
-
-
 
 {% tabs %}
 {% tab title="JS" %}
@@ -293,8 +277,6 @@ getUserAssets(userAddress, userAssetIndex, chainId)
 {% endtabs %}
 
 Executing this code will fetch the details of the user asset associated with the provided user address and asset index. Ensure that you supply the correct user address and asset index to retrieve the desired asset details. The result will contain information such as the asset's token address, token ID, and other relevant details pertaining to the user asset.
-
-
 
 **10. Repaying a Loan:**
 
@@ -321,8 +303,6 @@ repayLoan(userAssetIndex, chainId, signer)
 
 By executing this code, you will trigger the repayment process for the loan associated with the specified user asset index. Ensure that you provide the correct user asset index to repay the intended loan successfully.
 
-
-
 **11. Expire a Loan:**
 
 To expire a loan and terminate its active status, you can utilize the following function:
@@ -348,9 +328,6 @@ expireLoan(userAssetIndex, chainId, signer)
 
 By executing this code, you will initiate the expiration process for the loan associated with the provided user asset index. Ensure that you provide the correct user asset index to expire the intended loan successfully.
 
-
-
-Make sure to replace the placeholders (TOKEN\_ADDRESS, TOKEN\_ID, USER\_PUBLIC\_KEY, etc.) with the actual values specific to your use case.\
-
+Make sure to replace the placeholders (TOKEN\_ADDRESS, TOKEN\_ID, USER\_PUBLIC\_KEY, etc.) with the actual values specific to your use case.\\
 
 These examples demonstrate how to use the SDK functions to interact with the smart contract. You can integrate them into your application logic and handle the results and errors accordingly.
