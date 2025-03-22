@@ -1,15 +1,6 @@
-# User NFTs
+# NFTs (Owned and Rented)
 
-The Asset Manager API provides functionalities for managing asset managers in a blockchain-based ecosystem. Asset managers are entities responsible for managing various assets, such as digital tokens, NFTs (Non-Fungible Tokens), and other digital assets, on a blockchain network. These APIs allows users to retrieve information about asset managers based on their chain ID and contract address.
-
-**Endpoint:**
-
-> * Main Net Base URL: https://api.danlabs.xyz
-> * Test Net Base URL: https://api-staging.danlabs.xyz
-
-
-
-## **1. Use StreamNFT Indexer (1 API Call to get all User NFTs)**
+## **Use StreamNFT Indexer (1 API Call to get all User NFTs)**
 
 {% openapi src="../../../.gitbook/assets/openapi3.yml" path="/getNFTs/{chainId}/{wallet}" method="get" %}
 [openapi3.yml](../../../.gitbook/assets/openapi3.yml)
@@ -31,49 +22,3 @@ _Query Parameters specific for rentals_**:**
 **Response:**
 
 * Successful responses return an array of asset managers for provided token address with detailed information, such as the current rentee and the state of each asset.
-
-### Example: How to Integrate with exiting **external NFT indexer**
-
-* Get all rented collection NFTs by user wallet
-
-```javascript
-let nfts= indexerCall(wallet.address) // indexer call to get nfts by wallet
-nfts.push.apply(nfts, await getNFTs(chainId,wallet.address,tokenAddress));
-
-async function getNFTs(chainId, address,tokenAddress){
-    const nfts = await fetch(`https://indexer.streamnft.tech/assetManager/${chainId}?user=${walletAddress}&collection=${collectionAddress}`)
-    .then(response => {
-        if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        return response.json();
-    })
-    .catch(error => {
-        // Handle network errors or API response errors here
-        console.error('Error:', error.message);
-    });
-    return nfts;
-}
-```
-
-* Get all rented NFTs by user wallet
-
-```javascript
-let nfts= indexerCall(wallet.address) // indexer call to get nfts by wallet
-nfts.push.apply(nfts, await getNFTs(chainId,wallet.address));
-
-async function getNFTs(chainId, address){
-    const nfts = await fetch(`https://indexer.streamnft.tech/assetManager/${chainId}?user=${walletAddress}`)
-    .then(response => {
-        if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        return response.json();
-    })
-    .catch(error => {
-        // Handle network errors or API response errors here
-        console.error('Error:', error.message);
-    });
-    return nfts;
-}
-```
