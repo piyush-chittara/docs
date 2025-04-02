@@ -19,7 +19,7 @@ Integrate Rentals and host on StreamNFT Marketplace in **10 mins**
 </details>
 
 {% hint style="success" %}
-If you are looking to integrate NFT rentals within your own infrastructure please refer to [API](broken-reference) and [SDK](broken-reference) support for comprehensive list of functions
+If you are looking to integrate NFT rentals within your own infrastructure please refer to [API](rental-integration/) and [SDK](rental-integration-1/) support for comprehensive list of functions
 {% endhint %}
 
 {% tabs %}
@@ -56,6 +56,6 @@ Rental marketplace can be accessed [here](https://rent.streamnft.tech/) to get l
 
 [Onboard Your Project NOW!](https://tally.so/r/mVQDxE)
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a href="broken-reference">API Reference</a></td><td></td><td></td></tr><tr><td><a href="broken-reference"><strong>SDK Reference</strong></a></td><td></td><td></td></tr><tr><td><a href="on-chain-reference.md">On-Chain Reference</a></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><a href="rental-integration/">API Reference</a></td><td></td><td></td></tr><tr><td><a href="rental-integration-1/"><strong>SDK Reference</strong></a></td><td></td><td></td></tr><tr><td><a href="on-chain-reference.md">On-Chain Reference</a></td><td></td><td></td></tr></tbody></table>
 
 For any queries or assistance, feel free to reach Piyush ( CTO ) on Telegram @PiyushChittara
