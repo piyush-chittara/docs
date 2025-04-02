@@ -8,6 +8,12 @@ npm install streamnft-evm
 import * as stream from 'streamnft-evm';
 ```
 
+Initialise SDK with API key
+
+```jsx
+stream.initializeSDK(API_KEY)
+```
+
 To integrate the SDK with your repository, follow the steps below. The following code snippets provide examples of how to use the SDK functions to interact with the smart contract.
 
 ```
