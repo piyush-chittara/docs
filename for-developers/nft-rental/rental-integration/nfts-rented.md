@@ -1,6 +1,6 @@
 # NFTs (Rented)
 
-## **Use External Indexer (2 API Call to get all User NFTs)**
+## **Using External Indexer**
 
 _Query Parameters specific for rentals_**:**
 
@@ -26,7 +26,7 @@ let nfts= indexerCall(wallet.address) // indexer call to get nfts by wallet
 nfts.push.apply(nfts, await getNFTs(chainId,wallet.address,tokenAddress));
 
 async function getNFTs(chainId, address,tokenAddress){
-    const nfts = await fetch(`https://indexer.streamnft.tech/assetManager/${chainId}?user=${walletAddress}&collection=${collectionAddress}`)
+    const nfts = await fetch(`https://api.danlabs.xyz/assetManager/${chainId}?user=${walletAddress}&collection=${collectionAddress}`)
     .then(response => {
         if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
@@ -48,7 +48,7 @@ let nfts= indexerCall(wallet.address) // indexer call to get nfts by wallet
 nfts.push.apply(nfts, await getNFTs(chainId,wallet.address));
 
 async function getNFTs(chainId, address){
-    const nfts = await fetch(`https://indexer.streamnft.tech/assetManager/${chainId}?user=${walletAddress}`)
+    const nfts = await fetch(`https://api.danlabs.xyz/assetManager/${chainId}?user=${walletAddress}`)
     .then(response => {
         if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
